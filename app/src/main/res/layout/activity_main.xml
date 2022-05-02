@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dd.retrofit2.MainActivity">
+
+
+<!-- TODO: Update blank fragment layout -->
+
+
+<!-- TODO: cardView for lakes! -->
+    <!--
+        <View
+            android:id="@+id/color"
+            android:layout_width="match_parent"
+            android:layout_height="166dp"
+            android:layout_alignParentTop="true"
+            android:background="#33ffFf"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/helperLakeFragent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nimellä"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.206"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <TextView
+        android:id="@+id/helperLakeFragent4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Käyntimäärä"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.206"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.146" />
+
+    <TextView
+        android:id="@+id/helperLakeFragent5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suosikit"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.759"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.146" />
+
+    <TextView
+        android:id="@+id/helperLakeFragent3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kaupungilla"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.778"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <TextView
+        android:id="@+id/helperLakeFragent2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Etsi järviä"
+        android:textColor="@color/black"
+        android:textFontWeight="600"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009" />
+
+    <android.support.v7.widget.SearchView
+        android:id="@+id/namesearch"
+        android:layout_width="183dp"
+        android:layout_height="33dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/helperLakeFragent4"
+        app:layout_constraintEnd_toStartOf="@+id/citysearch"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/helperLakeFragent"/>
+
+
+        <android.support.v7.widget.SearchView
+            android:id="@+id/citysearch"
+        android:layout_width="183dp"
+        android:layout_height="32dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/helperLakeFragent2"
+        app:layout_constraintVertical_bias="0.046" />
+
+
+    <Spinner
+        android:id="@+id/visits"
+        android:layout_width="183dp"
+        android:layout_height="25dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/favorites"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/namesearch"
+        app:layout_constraintVertical_bias="0.057" />
+
+
+        <RadioButton
+        android:id="@+id/favorites"
+        android:layout_width="54dp"
+        android:layout_height="23dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/helperLakeFragent5"
+        app:layout_constraintVertical_bias="0.011" />-->
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/card_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        tools:layout_editor_absoluteX="1dp" />
+
+
+</android.support.constraint.ConstraintLayout>
